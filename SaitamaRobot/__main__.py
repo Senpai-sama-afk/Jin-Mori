@@ -87,7 +87,6 @@ the things I can help you with.
 *Main* commands available:
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
- • /donate: information on how to donate!
  • /settings:
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
@@ -102,10 +101,8 @@ And the following:
 
 SAITAMA_IMG = "https://telegra.ph/file/0f6b9879587b110ff3fcf.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @OnePunchDev."""
+DONATE_STRING = """Heya, glad to hear you want to donate! But this is not my project so no need to:)
+ """
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -222,7 +219,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="☑️ Add Jin Mori to your group",
+                                text="☑️ Add betabeta to your group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -235,19 +232,19 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates Channel",
-                                url="https://t.me/JinMoriSupport",
+                                url="https://t.me/betabetabetaeverywhere",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="🧾 Getting started guide",
-                                url="https://t.me/JinMoriSupport/29",
+                                url="https://t.me/betagroupmanagerrobot?start=help",
                             )
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🗄 Source code",
-                                url="https://github.com/AiyaGiorno/Jin-Mori",
+                                text="🗄 My Fadder",
+                                url="https://t.me/SenpaiAF",
                             )
                         ],
                     ]
