@@ -81,7 +81,7 @@ You can find my list of available commands with /help.
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm Jin Mori and I help admins manage their groups with my powers! Have a look at the following for an idea of some of \
+I'm beta beta and I help admins manage their groups with my powers! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
